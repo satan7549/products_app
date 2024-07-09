@@ -1,0 +1,101 @@
+/* NewProduct.css
+.new-product,
+.edit-product {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #f4f4f4;
+  border-radius: 8px;
+}
+
+.new-product h1,
+.edit-product h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.new-product form,
+.edit-product form {
+  display: flex;
+  flex-direction: column;
+}
+
+.new-product input,
+.edit-product input,
+.new-product textarea,
+.edit-product textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+.new-product button,
+.edit-product button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.new-product button:hover,
+.edit-product button:hover {
+  background-color: #0056b3;
+} */
+
+/* NewProduct.css */
+
+.new-product {
+  max-width: 400px; /* Adjust width as needed */
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.new-product h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.new-product form {
+  display: flex;
+  flex-direction: column;
+}
+
+.new-product input,
+.new-product textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1em;
+  width: calc(100% - 20px); /* Adjust input width */
+}
+
+.new-product textarea {
+  resize: vertical; /* Allow vertical resizing of textarea */
+}
+
+.new-product button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%; /* Button spans full width */
+}
+
+.new-product button:hover {
+  background-color: #0056b3;
+}
