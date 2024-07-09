@@ -6,7 +6,7 @@ export const FETCH_PRODUCTS_FAILURE = "FETCH_PRODUCTS_FAILURE";
 export const ADD_PRODUCT = "ADD_PRODUCT";
 export const UPDATE_PRODUCT = "UPDATE_PRODUCT";
 
-const baseURL = "http://localhost:8080/products";
+const baseURL = "https://mock-api-test-git-main-satan7549s-projects.vercel.app/products";
 
 export const fetchProducts = () => async (dispatch) => {
   dispatch({ type: FETCH_PRODUCTS_REQUEST });
